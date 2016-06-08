@@ -1,0 +1,7 @@
+[
+{"img":"image/1T1iaYQBKAv1RXrhCrK.jpg","desc":"2016年全新的JavaScript培训"},
+{"img":"image/2T1pBWgByKv1RXrhCrK.jpg","desc":"2016年全新的JavaScript培训"},
+{"img":"image/3T1t0xgBvxv1RXrhCrK.jpg","desc":"2016年全新的JavaScript培训"},
+{"img":"image/4T1IpZjBCJv1RXrhCrK.jpg","desc":"2016年全新的JavaScript培训"},
+{"img":"image/5T1QyLjBKEv1RXrhCrK.jpg","desc":"2016年全新的JavaScript培训"}
+]
