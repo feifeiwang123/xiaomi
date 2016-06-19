@@ -9,7 +9,10 @@ a,a:after,a:hover{
 ul li{
     list-style: none;
 }
-.clear{
+.clear:after {
+    display: block;
+    height: 0;
+    content: "";
     clear: both;
 }
 .iconfont {

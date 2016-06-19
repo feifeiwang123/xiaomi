@@ -1,0 +1,219 @@
+@charset "utf-8";
+body,div,h1,h2,h3,h4,h5,h6,p,table,tr,th,td,dt,dl,dd,ul,li,thead,tbody,
+tfoot,a,span,img,input,i,em,b,strong,font,small,form{
+    margin: 0;
+    padding: 0;
+    font-family:"\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+    -webkit-user-select: none;
+    font-size: 12px;
+}
+a,a:after,a:hover{
+    text-decoration: none;
+    color: #757575;
+}
+ul li{
+    list-style: none;
+}
+.clear:after {
+    display: block;
+    height: 0;
+    content: "";
+    clear: both;
+}
+fieldset{
+    border: none;
+}
+input{
+    outline: none;
+    border: none;
+    vertical-align: middle;
+}
+/*-------------------------------  */
+html,body{
+    height: 100%;
+    background: #f5f5f5;
+    color: #757575;
+}
+.wrapper{
+    width: 100%;
+}
+.wrap{
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.layout {
+    background-color: #fff;
+    width: 854px;
+    margin: 0 auto 20px;
+    position: relative;
+    min-height: 620px;
+}
+.mainbox {
+    padding-bottom: 30px;
+    height: 100%;
+}
+.erCode{
+    position: absolute;
+    right: 0;
+    opacity: .4;
+    width: 68px;
+    height: 68px;
+    background: url("../image2/半截二维码.gif")no-repeat;
+}
+.erCode:hover{
+    opacity: 1;
+}
+.headerTit {
+    padding: 50px 0 22px;
+}
+.milogo img{
+    width: 50px;
+    height: 50px;
+}
+.milogo {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+.header_tit_txt {
+    font-size: 30px;
+    color: #424242;
+    font-weight: normal;
+    padding-top: 22px;
+    text-align: center;
+}
+.login_area {
+    width: 358px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.labelbox {
+    display: block;
+    margin-bottom: 14px;
+    padding: 0;
+}
+.labelbox input {
+    width: 326px;
+    height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    border: 1px solid #e0e0e0;
+}
+.lgncode {
+    padding-top: 14px;
+}
+.btns_bg {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.btnadpt {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background: #ef5b00;
+}
+.othType {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+.othType legend {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin: 0 auto;
+    text-align: center;
+}
+.othT{
+    padding-top: 10px;
+    text-align: center;
+}
+.icon_type {
+    width: 30px;
+    height: 30px;
+    margin: 0 12px;
+    display: inline-block;
+    text-indent: -9999px;
+    border-radius: 50%;
+    background: #757575;
+
+}
+.btn_alipay:hover {
+    background-color: #0ae;
+}
+.btn_weibo:hover {
+    background-color: #d32f2f;
+}
+.btn_qq:hover {
+    background-color: #0288d1;
+}
+ .btn_sns_icontype {
+    display: block;
+    margin: 4px auto 0;
+    background: url("../image2/qqweibo.png")no-repeat;
+    width: 18px;
+    height: 18px;
+}
+.btn_default_qq {
+    background-position: -19px 0;
+}
+.icon_default_weibo{
+    background-position: -38px 0;
+}
+.icon_default_alipay{
+    background-position: -57px 0;
+    width: 25px;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+.links{
+    padding-top: 30px;
+    text-align: center;
+    color: #e0e0e0;
+}
+.links a{
+    padding: 0 9px;
+    font-size: 14px;
+}
+.links a:hover{
+    color: #ff6700;
+}
+.footer{
+    height: 80px;
+    margin-top: -80px;
+    line-height: 1.5;
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a{
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer ul li a:hover{
+    color: #333;
+}
+.footer ul li .current{
+    color: #333;
+}
+.footer P{
+    padding: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+    .layout {
+              width: 100%;
+              min-width: 400px;
+              min-height: 480px;
+          }
+    .mainbox {
+        padding-bottom: 15px;
+    }
+}
